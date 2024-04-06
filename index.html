@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login and Sign-up Form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Login Form</h2>
+        <form actionid="loginForm" method="post">
+            <div>
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div>
+                <input type="checkbox" id="rememberMe" name="rememberMe">
+                <label for="rememberMe">Remember Me</label>
+            </div>
+            <div>
+                <input type="submit" value="Login">
+            </div>
+        </form>
+    </div>
+
+    <div class="container">
+        <h2>Sign-up Form</h2>
+        <form id="signupForm" method="post">
+            <div>
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="signuppassword">Password</label>
+                <input type="password" id="signuppassword" name="signuppassword" required>
+            </div>
+            <div>
+                <input type="submit" value="Sign-up">
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
